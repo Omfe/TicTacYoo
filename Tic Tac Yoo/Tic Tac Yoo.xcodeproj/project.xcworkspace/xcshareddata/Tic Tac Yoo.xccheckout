@@ -14,11 +14,11 @@
 		<string>https://github.com/Omfe/TicTacYoo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Tic Tac Yoo.xcodeproj</string>
+	<string>Tic Tac Yoo/Tic Tac Yoo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>ADA34779C3B37205ECDBD028ABE8654BA4ABB0D7</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Omfe/TicTacYoo.git</string>
