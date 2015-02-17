@@ -7,7 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "TCYToken.h"
 
 @interface TCYPlayer : NSObject
+
+@property (strong, nonatomic) TCYToken *typeOfPlayer;
 
 @end

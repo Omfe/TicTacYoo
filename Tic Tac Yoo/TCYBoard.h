@@ -10,4 +10,7 @@
 
 @interface TCYBoard : NSObject
 
+@property (strong, nonatomic) NSMutableArray *Tokens;
+@property (strong, nonatomic) NSMutableArray *BoardSlots;
+
 @end

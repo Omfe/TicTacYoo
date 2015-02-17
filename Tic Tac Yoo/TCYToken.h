@@ -10,4 +10,7 @@
 
 @interface TCYToken : NSObject
 
+@property (assign, nonatomic) NSInteger tokenX;
+@property (assign, nonatomic) NSInteger tokenO;
+
 @end
