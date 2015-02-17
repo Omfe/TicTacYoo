@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6FC4BE3F1A92FBC2008400BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4BE3E1A92FBC2008400BF /* main.m */; };
 		6FC4BE421A92FBC2008400BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4BE411A92FBC2008400BF /* AppDelegate.m */; };
-		6FC4BE451A92FBC2008400BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4BE441A92FBC2008400BF /* ViewController.m */; };
 		6FC4BE481A92FBC2008400BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4BE461A92FBC2008400BF /* Main.storyboard */; };
 		6FC4BE4A1A92FBC2008400BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4BE491A92FBC2008400BF /* Images.xcassets */; };
 		6FC4BE4D1A92FBC2008400BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4BE4B1A92FBC2008400BF /* LaunchScreen.xib */; };
@@ -17,6 +16,11 @@
 		6FC4C6AA1A9307E3008400BF /* board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4C6A91A9307E3008400BF /* board.jpg */; };
 		6FC4C6AC1A9309B7008400BF /* whiteguy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4C6AB1A9309B7008400BF /* whiteguy.png */; };
 		6FC4C6AE1A9309C5008400BF /* blackguy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6FC4C6AD1A9309C5008400BF /* blackguy.png */; };
+		6FC4C6B11A9323FD008400BF /* TCYPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4C6B01A9323FD008400BF /* TCYPlayer.m */; };
+		6FC4C6B41A93240D008400BF /* TCYBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4C6B31A93240D008400BF /* TCYBoard.m */; };
+		6FC4C6B71A932439008400BF /* TCYToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4C6B61A932439008400BF /* TCYToken.m */; };
+		6FC4C6BA1A93254C008400BF /* TCYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4C6B91A93254C008400BF /* TCYHomeViewController.m */; };
+		6FC4C6BD1A932578008400BF /* TCYGameBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC4C6BC1A932578008400BF /* TCYGameBoardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,8 +39,6 @@
 		6FC4BE3E1A92FBC2008400BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6FC4BE401A92FBC2008400BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6FC4BE411A92FBC2008400BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6FC4BE431A92FBC2008400BF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6FC4BE441A92FBC2008400BF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6FC4BE471A92FBC2008400BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6FC4BE491A92FBC2008400BF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6FC4BE4C1A92FBC2008400BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -46,6 +48,16 @@
 		6FC4C6A91A9307E3008400BF /* board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = board.jpg; sourceTree = SOURCE_ROOT; };
 		6FC4C6AB1A9309B7008400BF /* whiteguy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteguy.png; sourceTree = SOURCE_ROOT; };
 		6FC4C6AD1A9309C5008400BF /* blackguy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackguy.png; sourceTree = SOURCE_ROOT; };
+		6FC4C6AF1A9323FD008400BF /* TCYPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCYPlayer.h; sourceTree = SOURCE_ROOT; };
+		6FC4C6B01A9323FD008400BF /* TCYPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCYPlayer.m; sourceTree = SOURCE_ROOT; };
+		6FC4C6B21A93240D008400BF /* TCYBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCYBoard.h; sourceTree = SOURCE_ROOT; };
+		6FC4C6B31A93240D008400BF /* TCYBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCYBoard.m; sourceTree = SOURCE_ROOT; };
+		6FC4C6B51A932439008400BF /* TCYToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCYToken.h; sourceTree = SOURCE_ROOT; };
+		6FC4C6B61A932439008400BF /* TCYToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCYToken.m; sourceTree = SOURCE_ROOT; };
+		6FC4C6B81A93254C008400BF /* TCYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCYHomeViewController.h; sourceTree = SOURCE_ROOT; };
+		6FC4C6B91A93254C008400BF /* TCYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCYHomeViewController.m; sourceTree = SOURCE_ROOT; };
+		6FC4C6BB1A932578008400BF /* TCYGameBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TCYGameBoardViewController.h; sourceTree = SOURCE_ROOT; };
+		6FC4C6BC1A932578008400BF /* TCYGameBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TCYGameBoardViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,12 +104,20 @@
 				6FC4C6A91A9307E3008400BF /* board.jpg */,
 				6FC4BE401A92FBC2008400BF /* AppDelegate.h */,
 				6FC4BE411A92FBC2008400BF /* AppDelegate.m */,
-				6FC4BE431A92FBC2008400BF /* ViewController.h */,
-				6FC4BE441A92FBC2008400BF /* ViewController.m */,
+				6FC4C6B81A93254C008400BF /* TCYHomeViewController.h */,
+				6FC4C6B91A93254C008400BF /* TCYHomeViewController.m */,
+				6FC4C6BB1A932578008400BF /* TCYGameBoardViewController.h */,
+				6FC4C6BC1A932578008400BF /* TCYGameBoardViewController.m */,
 				6FC4BE461A92FBC2008400BF /* Main.storyboard */,
 				6FC4BE491A92FBC2008400BF /* Images.xcassets */,
 				6FC4BE4B1A92FBC2008400BF /* LaunchScreen.xib */,
 				6FC4BE3C1A92FBC2008400BF /* Supporting Files */,
+				6FC4C6AF1A9323FD008400BF /* TCYPlayer.h */,
+				6FC4C6B01A9323FD008400BF /* TCYPlayer.m */,
+				6FC4C6B21A93240D008400BF /* TCYBoard.h */,
+				6FC4C6B31A93240D008400BF /* TCYBoard.m */,
+				6FC4C6B51A932439008400BF /* TCYToken.h */,
+				6FC4C6B61A932439008400BF /* TCYToken.m */,
 			);
 			path = "Tic Tac Yoo";
 			sourceTree = "<group>";
@@ -231,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FC4BE451A92FBC2008400BF /* ViewController.m in Sources */,
+				6FC4C6BD1A932578008400BF /* TCYGameBoardViewController.m in Sources */,
+				6FC4C6BA1A93254C008400BF /* TCYHomeViewController.m in Sources */,
+				6FC4C6B71A932439008400BF /* TCYToken.m in Sources */,
+				6FC4C6B41A93240D008400BF /* TCYBoard.m in Sources */,
 				6FC4BE421A92FBC2008400BF /* AppDelegate.m in Sources */,
 				6FC4BE3F1A92FBC2008400BF /* main.m in Sources */,
+				6FC4C6B11A9323FD008400BF /* TCYPlayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
